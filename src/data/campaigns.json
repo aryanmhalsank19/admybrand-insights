@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Summer Sale 2024",
+    "channel": "Google Ads",
+    "clicks": 12420,
+    "ctr": 3.2,
+    "spend": 5400,
+    "conversions": 248,
+    "revenue": 18650,
+    "status": "active"
+  },
+  {
+    "id": 2,
+    "name": "Brand Awareness Q2",
+    "channel": "Meta Ads",
+    "clicks": 8750,
+    "ctr": 2.8,
+    "spend": 3200,
+    "conversions": 156,
+    "revenue": 12400,
+    "status": "active"
+  },
+  {
+    "id": 3,
+    "name": "Product Launch",
+    "channel": "LinkedIn",
+    "clicks": 4320,
+    "ctr": 4.1,
+    "spend": 2800,
+    "conversions": 89,
+    "revenue": 8900,
+    "status": "active"
+  },
+  {
+    "id": 4,
+    "name": "Newsletter Campaign",
+    "channel": "Email",
+    "clicks": 15600,
+    "ctr": 5.4,
+    "spend": 450,
+    "conversions": 312,
+    "revenue": 15680,
+    "status": "active"
+  },
+  {
+    "id": 5,
+    "name": "Retargeting Campaign",
+    "channel": "Google Ads",
+    "clicks": 6890,
+    "ctr": 6.2,
+    "spend": 1850,
+    "conversions": 178,
+    "revenue": 9340,
+    "status": "paused"
+  },
+  {
+    "id": 6,
+    "name": "Holiday Promo",
+    "channel": "Meta Ads",
+    "clicks": 9430,
+    "ctr": 2.1,
+    "spend": 4200,
+    "conversions": 134,
+    "revenue": 7800,
+    "status": "completed"
+  }
+]

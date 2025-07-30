@@ -1,0 +1,50 @@
+{
+  "sources": [
+    {
+      "name": "Organic Search",
+      "value": 45,
+      "sessions": 18420,
+      "color": "#3b82f6"
+    },
+    {
+      "name": "Paid Search",
+      "value": 28,
+      "sessions": 11480,
+      "color": "#10b981"
+    },
+    {
+      "name": "Social Media",
+      "value": 15,
+      "sessions": 6150,
+      "color": "#f59e0b"
+    },
+    {
+      "name": "Direct",
+      "value": 8,
+      "sessions": 3280,
+      "color": "#8b5cf6"
+    },
+    {
+      "name": "Referral",
+      "value": 4,
+      "sessions": 1640,
+      "color": "#ef4444"
+    }
+  ],
+  "revenueOverTime": [
+    { "date": "2024-01-01", "revenue": 85420, "users": 2140 },
+    { "date": "2024-01-02", "revenue": 92150, "users": 2280 },
+    { "date": "2024-01-03", "revenue": 78940, "users": 1950 },
+    { "date": "2024-01-04", "revenue": 105680, "users": 2650 },
+    { "date": "2024-01-05", "revenue": 118790, "users": 2890 },
+    { "date": "2024-01-06", "revenue": 134200, "users": 3180 },
+    { "date": "2024-01-07", "revenue": 125420, "users": 2840 }
+  ],
+  "channelPerformance": [
+    { "channel": "Google Ads", "conversions": 426, "revenue": 27990 },
+    { "channel": "Meta Ads", "conversions": 290, "revenue": 20200 },
+    { "channel": "LinkedIn", "conversions": 89, "revenue": 8900 },
+    { "channel": "Email", "conversions": 312, "revenue": 15680 },
+    { "channel": "Organic", "conversions": 185, "revenue": 12450 }
+  ]
+}

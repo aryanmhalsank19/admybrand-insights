@@ -1,0 +1,32 @@
+{
+  "revenue": {
+    "current": 125420,
+    "previous": 118965,
+    "change": 5.4,
+    "trend": "up"
+  },
+  "users": {
+    "current": 2840,
+    "previous": 2615,
+    "change": 8.6,
+    "trend": "up"
+  },
+  "conversions": {
+    "current": 847,
+    "previous": 923,
+    "change": -8.2,
+    "trend": "down"
+  },
+  "ctr": {
+    "current": 3.2,
+    "previous": 2.8,
+    "change": 14.3,
+    "trend": "up"
+  },
+  "growth": {
+    "current": 12.4,
+    "previous": 9.8,
+    "change": 26.5,
+    "trend": "up"
+  }
+}
