@@ -46,6 +46,7 @@ Visualization	Custom components, Tabs, Cards, Charts
 
 **🗂️ Project Structure**
 
+```bash
 admybrand-insights/
 ├── components/         # Reusable UI components (Cards, Charts, Tabs, etc.)
 ├── pages/              # Main pages (Dashboard, Campaigns, Reports)
@@ -54,6 +55,7 @@ admybrand-insights/
 ├── lib/                # Utility functions (formatting, chart logic)
 ├── contexts/           # Global contexts (e.g., UserContext)
 └── App.tsx             # App entry point with routing and layout
+```
 
 **📄 Submission Summary**
 ✅ AI-enhanced product design and architecture
