@@ -1,73 +1,78 @@
-# Welcome to your Lovable project
+**📊 ADmyBRAND Insights**
+AI-Powered Marketing Analytics Dashboard
+ADmyBRAND Insights is a full-stack, AI-powered analytics dashboard tailored for marketing and media intelligence. The system provides brands and marketers with real-time insights, campaign performance, user metrics, and audience analytics — powered through automation, data visualization, and interactive design.
 
-## Project info
+**🚀 Key Features**
+📈 Campaign Performance Tracking – Real-time insights across multiple ad campaigns
 
-**URL**: https://lovable.dev/projects/6d2f51e7-6690-4292-8a90-c1cce04ee383
+🧠 AI-Generated Metrics – Smart segmentation, traffic trend prediction, and ROI insights
 
-## How can I edit this code?
+🧩 Modular Components – Built with reusable, responsive components for scalability
 
-There are several ways of editing your application.
+📱 Mobile-Friendly Dashboard – Optimized for all screen sizes
 
-**Use Lovable**
+🗺️ Dynamic Visualizations – Charts, filters, and interactive tabs for user engagement
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6d2f51e7-6690-4292-8a90-c1cce04ee383) and start prompting.
+🎯 User-Centric Reports – Tailored reports based on behavior and brand KPIs
 
-Changes made via Lovable will be committed automatically to this repo.
+**🧠 AI Tools Used**
+Primary AI Assistants:
 
-**Use your preferred IDE**
+ChatGPT (OpenAI) – Planning, UI architecture, feature breakdown, writing logic
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Claude (Anthropic) – Design idea generation, layout structure
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Excalidraw – Flowchart & UI wireframe sketching
+Link : https://excalidraw.com/#json=b4iCWcKf3ESdZuGx94Ebf,tUkUZZ_DoI744E7TuO0VAw
 
-Follow these steps:
+**Sample Prompts Used:**
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+"Design a clean, responsive marketing dashboard layout using Tailwind and React with tab-based navigation."
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+"Generate modular React components for a campaign analytics UI with filters and charts."
 
-# Step 3: Install the necessary dependencies.
-npm i
+AI vs Manual Work Split:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+AI-generated: ~70% (component scaffolding, layout ideas, prompt-generated logic)
+
+Manual customization: ~30% (UI tweaks, data binding, state logic, branding integration)
+
+**🧱 Tech Stack**
+Layer	Tech Stack
+Frontend	React, TypeScript, Tailwind CSS, Vite
+State	Context API
+Data	JSON (for metrics, campaigns, traffic data)
+Visualization	Custom components, Tabs, Cards, Charts
+
+**🗂️ Project Structure**
+
+admybrand-insights/
+├── components/         # Reusable UI components (Cards, Charts, Tabs, etc.)
+├── pages/              # Main pages (Dashboard, Campaigns, Reports)
+├── data/               # Static mock data (campaign.json, metrics.json)
+├── hooks/              # Custom React hooks
+├── lib/                # Utility functions (formatting, chart logic)
+├── contexts/           # Global contexts (e.g., UserContext)
+└── App.tsx             # App entry point with routing and layout
+
+**📄 Submission Summary**
+✅ AI-enhanced product design and architecture
+
+✅ Used minimum prompts to generate full system UI
+
+✅ All pages fully functional and interactive
+
+✅ Smart data binding with reusable logic
+
+✅ Tailored for real-world brand usage
+
+**🏁 How to Run**
+
+npm install
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+**🤝 Contribution**
+AI Role: Layout generation, UI logic suggestions, prompt-based design
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Human Role: Custom tailoring, design decisions, binding actual data, interaction handling
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/6d2f51e7-6690-4292-8a90-c1cce04ee383) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
