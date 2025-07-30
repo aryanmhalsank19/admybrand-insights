@@ -9,12 +9,7 @@ import { useTheme } from "next-themes";
 import { Moon, Sun, User, Shield, Bell, Download, Palette } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
-interface SettingsProps {
-  userRole: 'admin' | 'viewer';
-  onRoleChange: (role: 'admin' | 'viewer') => void;
-}
-
-export function Settings({ userRole, onRoleChange }: SettingsProps) {
+export function Settings() {
   const { theme, setTheme } = useTheme();
   const { toast } = useToast();
   const [notifications, setNotifications] = useState({
