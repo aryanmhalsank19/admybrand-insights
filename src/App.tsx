@@ -10,6 +10,10 @@ import Index from "./pages/Index";
 import { Dashboard } from "./pages/Dashboard";
 import { Settings } from "./pages/Settings";
 import { Reports } from "./pages/Reports";
+import { Campaigns } from "./pages/Campaigns";
+import { Revenue } from "./pages/Revenue";
+import { Users } from "./pages/Users";
+import { Performance } from "./pages/Performance";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -41,22 +45,22 @@ const App = () => (
               } />
               <Route path="/campaigns" element={
                 <Layout>
-                  <Dashboard />
+                  <Campaigns />
                 </Layout>
               } />
               <Route path="/revenue" element={
                 <Layout>
-                  <Dashboard />
+                  <Revenue />
                 </Layout>
               } />
               <Route path="/users" element={
                 <Layout>
-                  <Dashboard />
+                  <Users />
                 </Layout>
               } />
               <Route path="/performance" element={
                 <Layout>
-                  <Dashboard />
+                  <Performance />
                 </Layout>
               } />
               <Route path="/export" element={
