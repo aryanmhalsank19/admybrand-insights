@@ -1,0 +1,64 @@
+{
+  "summary": {
+    "totalRevenue": 1256420,
+    "monthlyGrowth": 12.4,
+    "activeCampaigns": 8
+  },
+  "revenueOverTime": [
+    { "month": "Jan", "revenue": 890000 },
+    { "month": "Feb", "revenue": 945000 },
+    { "month": "Mar", "revenue": 1025000 },
+    { "month": "Apr", "revenue": 1150000 },
+    { "month": "May", "revenue": 1200000 },
+    { "month": "Jun", "revenue": 1256420 }
+  ],
+  "revenueByPlatform": [
+    { "platform": "Google Ads", "revenue": 450000, "percentage": 35.8 },
+    { "platform": "Meta Ads", "revenue": 380000, "percentage": 30.2 },
+    { "platform": "LinkedIn", "revenue": 200000, "percentage": 15.9 },
+    { "platform": "Email", "revenue": 150000, "percentage": 11.9 },
+    { "platform": "Others", "revenue": 76420, "percentage": 6.2 }
+  ],
+  "campaignRevenue": [
+    {
+      "id": 1,
+      "name": "Summer Sale 2024",
+      "revenue": 285000,
+      "ctr": 3.2,
+      "cpm": 12.50,
+      "conversionRate": 4.8
+    },
+    {
+      "id": 2,
+      "name": "Brand Awareness Q2",
+      "revenue": 198000,
+      "ctr": 2.8,
+      "cpm": 15.20,
+      "conversionRate": 3.5
+    },
+    {
+      "id": 3,
+      "name": "Product Launch",
+      "revenue": 156000,
+      "ctr": 4.1,
+      "cpm": 18.30,
+      "conversionRate": 5.2
+    },
+    {
+      "id": 4,
+      "name": "Newsletter Campaign",
+      "revenue": 142000,
+      "ctr": 5.4,
+      "cpm": 8.90,
+      "conversionRate": 6.1
+    },
+    {
+      "id": 5,
+      "name": "Retargeting Campaign",
+      "revenue": 125000,
+      "ctr": 6.2,
+      "cpm": 22.10,
+      "conversionRate": 7.3
+    }
+  ]
+}

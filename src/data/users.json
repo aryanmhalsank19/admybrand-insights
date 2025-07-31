@@ -1,0 +1,59 @@
+{
+  "summary": {
+    "totalUsers": 45820,
+    "activeUsers": 32450,
+    "newUsersThisMonth": 3240
+  },
+  "userGrowthOverTime": [
+    { "month": "Jan", "users": 38000 },
+    { "month": "Feb", "users": 39500 },
+    { "month": "Mar", "users": 41200 },
+    { "month": "Apr", "users": 42800 },
+    { "month": "May", "users": 44300 },
+    { "month": "Jun", "users": 45820 }
+  ],
+  "userSegments": [
+    {
+      "id": 1,
+      "segmentName": "Premium Users",
+      "count": 8420,
+      "averageCtr": 4.2,
+      "region": "North America"
+    },
+    {
+      "id": 2,
+      "segmentName": "Free Users",
+      "count": 25680,
+      "averageCtr": 2.8,
+      "region": "Global"
+    },
+    {
+      "id": 3,
+      "segmentName": "Enterprise",
+      "count": 1250,
+      "averageCtr": 6.1,
+      "region": "North America"
+    },
+    {
+      "id": 4,
+      "segmentName": "Mobile Users",
+      "count": 18920,
+      "averageCtr": 3.5,
+      "region": "Asia Pacific"
+    },
+    {
+      "id": 5,
+      "segmentName": "Web Users",
+      "count": 15840,
+      "averageCtr": 3.8,
+      "region": "Europe"
+    },
+    {
+      "id": 6,
+      "segmentName": "Trial Users",
+      "count": 4210,
+      "averageCtr": 2.1,
+      "region": "Global"
+    }
+  ]
+}

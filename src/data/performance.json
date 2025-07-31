@@ -1,0 +1,63 @@
+{
+  "metrics": {
+    "ctr": 3.42,
+    "cpm": 15.80,
+    "cpc": 2.45,
+    "bounceRate": 24.5,
+    "conversionRate": 4.8
+  },
+  "campaignComparison": [
+    { "campaign": "Summer Sale", "ctr": 3.2 },
+    { "campaign": "Brand Awareness", "ctr": 2.8 },
+    { "campaign": "Product Launch", "ctr": 4.1 },
+    { "campaign": "Newsletter", "ctr": 5.4 },
+    { "campaign": "Retargeting", "ctr": 6.2 }
+  ],
+  "campaignMetrics": [
+    {
+      "id": 1,
+      "name": "Summer Sale 2024",
+      "clicks": 12420,
+      "impressions": 388125,
+      "conversions": 248,
+      "budget": 5400,
+      "roi": 345
+    },
+    {
+      "id": 2,
+      "name": "Brand Awareness Q2",
+      "clicks": 8750,
+      "impressions": 312500,
+      "conversions": 156,
+      "budget": 3200,
+      "roi": 387
+    },
+    {
+      "id": 3,
+      "name": "Product Launch",
+      "clicks": 4320,
+      "impressions": 105365,
+      "conversions": 89,
+      "budget": 2800,
+      "roi": 318
+    },
+    {
+      "id": 4,
+      "name": "Newsletter Campaign",
+      "clicks": 15600,
+      "impressions": 288889,
+      "conversions": 312,
+      "budget": 450,
+      "roi": 3484
+    },
+    {
+      "id": 5,
+      "name": "Retargeting Campaign",
+      "clicks": 6890,
+      "impressions": 111129,
+      "conversions": 178,
+      "budget": 1850,
+      "roi": 505
+    }
+  ]
+}
