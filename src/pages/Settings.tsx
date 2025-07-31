@@ -8,10 +8,12 @@ import { Separator } from "@/components/ui/separator";
 import { useTheme } from "next-themes";
 import { Moon, Sun, User, Shield, Bell, Download, Palette } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
+import { useUser } from "@/contexts/UserContext";
 
 export function Settings() {
   const { theme, setTheme } = useTheme();
   const { toast } = useToast();
+  const { user, setUserRole } = useUser();
   const [notifications, setNotifications] = useState({
     email: true,
     push: false,
@@ -31,8 +33,8 @@ export function Settings() {
   };
 
   const handleRoleToggle = () => {
-    const newRole = userRole === 'admin' ? 'viewer' : 'admin';
-    onRoleChange(newRole);
+    const newRole = user.role === 'admin' ? 'viewer' : 'admin';
+    setUserRole(newRole);
     toast({
       title: "Role updated",
       description: `You are now logged in as ${newRole}.`,
@@ -67,22 +69,22 @@ export function Settings() {
                   <Label className="text-sm font-medium">Current Role</Label>
                   <div className="flex items-center gap-2">
                     <Badge 
-                      variant={userRole === 'admin' ? 'default' : 'secondary'}
-                      className={userRole === 'admin' ? 'bg-primary' : ''}
+                      variant={user.role === 'admin' ? 'default' : 'secondary'}
+                      className={user.role === 'admin' ? 'bg-primary' : ''}
                     >
                       <Shield className="h-3 w-3 mr-1" />
-                      {userRole === 'admin' ? 'Administrator' : 'Viewer'}
+                      {user.role === 'admin' ? 'Administrator' : 'Viewer'}
                     </Badge>
                   </div>
                   <p className="text-xs text-muted-foreground">
-                    {userRole === 'admin' 
+                    {user.role === 'admin' 
                       ? 'Full access to all features and settings'
                       : 'Read-only access to dashboard and reports'
                     }
                   </p>
                 </div>
                 <Switch
-                  checked={userRole === 'admin'}
+                  checked={user.role === 'admin'}
                   onCheckedChange={handleRoleToggle}
                 />
               </div>
